@@ -1,0 +1,36 @@
+{
+  "pagesRendered": 46,
+  "clientScriptsParsed": 134,
+  "toolsCovered": 20,
+  "routes": [
+    {
+      "path": "/guide?lang=id",
+      "status": 200
+    },
+    {
+      "path": "/guide/?lang=en",
+      "status": 200
+    },
+    {
+      "path": "/tools",
+      "status": 404
+    },
+    {
+      "path": "/tools/cidr",
+      "status": 404
+    }
+  ],
+  "passed": [
+    "Bilingual guide and credits render",
+    "Every tool guide anchor and help content",
+    "Admin tool pages and existing help retained",
+    "Client script syntax",
+    "Guest guide access and tool auth restriction",
+    "Responsive wrapping styles present"
+  ],
+  "limitations": [
+    "No live Cloudflare deployment test",
+    "No browser visual or interaction test",
+    "Existing runtime feature suite not rerun"
+  ]
+}

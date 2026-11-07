@@ -1,0 +1,11 @@
+.data/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+node_modules/
+.wrangler/
+*.log
+backups/
+uploads/
+websession/
